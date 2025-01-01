@@ -2,10 +2,13 @@ function Home() {
   return (
     <div>
       <main>
-        <p>MPW - Starting page</p>
+        <p>MPW - Work in progress...</p>
       </main>
-      <footer>
-        <p>Footer content</p>
+      <footer className=" text-white py-4 text-center">
+        <p>
+          &copy; {new Date().getFullYear()} Marko Koljancic. All rights
+          reserved.
+        </p>
       </footer>
     </div>
   );
